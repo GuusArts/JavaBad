@@ -1,3 +1,4 @@
+
 package com.acme.jndi;
 
 import jakarta.ws.rs.*;

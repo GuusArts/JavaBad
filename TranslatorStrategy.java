@@ -5,3 +5,5 @@ public interface TranslatorStrategy {
   /** Translates the given text. */
   String translate(String text);
 }
+
+

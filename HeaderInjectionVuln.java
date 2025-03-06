@@ -1,3 +1,4 @@
+
 package com.acme.headerinjection;
 
 import jakarta.ws.rs.GET;
