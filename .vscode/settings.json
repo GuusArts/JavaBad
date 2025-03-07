@@ -2,5 +2,6 @@
     "sonarlint.connectedMode.project": {
         "connectionId": "ocs",
         "projectKey": "GuusArts_JavaBad"
-    }
+    },
+    "java.compile.nullAnalysis.mode": "automatic"
 }
