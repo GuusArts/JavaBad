@@ -1,4 +1,4 @@
-package com.acme.reflection;
+
 
 /** Example of a configurable strategy. */
 public interface TranslatorStrategy {

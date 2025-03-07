@@ -1,4 +1,4 @@
-package com.acme.jndi;
+
 
 import javax.naming.Context;
 import javax.naming.InitialContext;

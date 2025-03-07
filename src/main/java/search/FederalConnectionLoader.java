@@ -1,4 +1,4 @@
-package com.acme.search;
+package search;
 
 import java.sql.Connection;
 

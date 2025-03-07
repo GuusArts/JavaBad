@@ -1,4 +1,4 @@
-package com.acme.search;
+package search;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;

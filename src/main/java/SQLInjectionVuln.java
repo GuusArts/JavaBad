@@ -1,5 +1,5 @@
 
-package com.acme.sql;
+
 
 import jakarta.ws.rs.GET;
 import jakarta.ws.rs.Path;

@@ -1,4 +1,4 @@
-package com.acme.search;
+package search;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
