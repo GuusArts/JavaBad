@@ -1,0 +1,6 @@
+com.acme.reflection.UnsafeReflection#hello(Ljava/lang/String;)Ljava/lang/String;
+false
+1ce77c794dbabcfb11b44f79495951bd
+com.acme.reflection.UnsafeReflection#loadTranslatorByName(Ljava/lang/String;)Lcom/acme/reflection/TranslatorStrategy;
+==
+translate com.acme.reflection.TranslatorStrategy#translate(Ljava/lang/String;)Ljava/lang/String;

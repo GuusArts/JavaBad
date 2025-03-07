@@ -1,0 +1,55 @@
+
+Ucom.acme.jndi.JNDIVuln#lookupYetAnotherResource(Ljava/lang/String;)Ljava/lang/String;†
+|C:/Users/artsg/OneDrive/Documenten/documenten fontys/Graduation internship/Bad practices/JavaBad/src/main/java/JNDIVuln.java (*"startingBlock*Ê
+startingBlock* (YŽ
+‹
+ (
+%1"
+__annotate*1
+
+__unknown_file (
+jakarta.ws.rs.PUT*:
+
+__unknown_file (
+
+resourcejava.lang.String•
+’
++ (B
+%2"
+__annotate*8
+
+__unknown_file (
+jakarta.ws.rs.QueryParam*:
+
+__unknown_file (
+
+resourcejava.lang.String€
+~
+P (X
+resourcejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%1*"
+
+__unknown_file (
+
+%2*
+1*¢
+1 (ì
+é
+ (2
+%0java.lang.String"Mcom.acme.jndi.FindResource#findResource(Ljava/lang/String;)Ljava/lang/String;*:
+
+__unknown_file ("
+com.acme.jndi.FindResource*:
+
+__unknown_file (
+
+resourcejava.lang.String"$
+ (3
+
+%0java.lang.String:(
++ (X
+resourcejava.lang.StringB
+com.acme.jndi.JNDIVulnH

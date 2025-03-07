@@ -1,0 +1,183 @@
+
+1.0bad.code:my-bad-codeJavaFrontend"1741341767421*java2.B¯
+2
+-src/main/java/csrf/SecurityConfiguration.java2
+
+package4
+
+com.acme.csrf5
+(
+#com.acme.csrf.SecurityConfiguration7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+SecurityConfiguration12
+:
+4org.springframework.context.annotation.Configuration14
+
+unknown15
+
+annotated by16
+
+
+uses17
+¸
+±com.acme.csrf.SecurityConfiguration#filterChain(Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;)Lorg/springframework/security/web/SecurityFilterChain;19
+
+method20
+
+filterChain21
+:
+4org.springframework.security.web.SecurityFilterChain23
+
+returns24
+N
+Horg.springframework.security.config.annotation.web.builders.HttpSecurity26
+
+	has param27
+1
++org.springframework.context.annotation.Bean29
+
+is type30
+[
+Uorg.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer32
+
+
+references33
+®
+§org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer#disable()Lorg/springframework/security/config/annotation/web/HttpSecurityBuilder;35
+
+calls36
+S
+Morg.springframework.security.config.annotation.web.configurers.CsrfConfigurer38
+¥
+žorg.springframework.security.config.annotation.web.builders.HttpSecurity#csrf()Lorg/springframework/security/config/annotation/web/configurers/CsrfConfigurer;40
+A
+;org.springframework.security.web.DefaultSecurityFilterChain42
+L
+Forg.springframework.security.config.annotation.AbstractSecurityBuilder44
+f
+`org.springframework.security.config.annotation.AbstractSecurityBuilder#build()Ljava/lang/Object;46J
+
+1
+12Z
+
+3	
+354jÙ
+
+39
+394015
+@
+18:
+181920 *
+1 (26:3B
+	
+9
+10
+
+
+11
+21
+
+45
+454615
+
+41
+414215
+
+25
+252615
+
+31
+313215
+
+22
+222315
+
+13
+131415
+
+37
+373815
+
+43
+434415
+
+28
+282915
+9
+64
+678 *
+1	 	(#:3B
+	
+9
+10
+
+
+11
+12
+
+34
+343515rä
+
+61316*
+1 (
+
+61317*
+1 (
+
+182224*
+1 (
+
+182527*
+1, (8
+
+182816*
+1 (
+
+182817*
+1 (
+
+
+182217*
+1 (
+
+182530*
+19 (=
+
+182517*
+1, (8
+
+182524*
+1	 (
+
+183133*
+1	 (
+
+183436*
+1 (
+
+183724*
+1	 (
+
+182533*
+1	 (
+
+183936*
+1 (
+
+184124*
+1 (
+
+184333*
+1 (
+
+184536*
+1 (

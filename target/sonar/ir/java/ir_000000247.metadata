@@ -1,0 +1,13 @@
+com.acme.xxe.XXEVuln#saxTransformer(Ljava/lang/String;)V
+false
+578d1ca5a20d48c9cd1758ae1fa23a20
+java.io.StringReader#<init>(Ljava/lang/String;)V
+java.io.StringReader#instance-init#
+javax.xml.parsers.SAXParserFactory#newInstance()Ljavax/xml/parsers/SAXParserFactory;
+org.xml.sax.InputSource#<init>(Ljava/io/Reader;)V
+org.xml.sax.InputSource#instance-init#
+==
+getXMLReader javax.xml.parsers.SAXParser#getXMLReader()Lorg/xml/sax/XMLReader;
+newSAXParser javax.xml.parsers.SAXParserFactory#newSAXParser()Ljavax/xml/parsers/SAXParser;
+parse org.xml.sax.XMLReader#parse(Lorg/xml/sax/InputSource;)V
+setValidating javax.xml.parsers.SAXParserFactory#setValidating(Z)V

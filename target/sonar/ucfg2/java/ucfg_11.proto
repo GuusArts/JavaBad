@@ -1,0 +1,72 @@
+
+Fcom.acme.xxe.XXEVuln#withDom(Ljava/lang/String;)Lorg/w3c/dom/Document;…
+{C:/Users/artsg/OneDrive/Documenten/documenten fontys/Graduation internship/Bad practices/JavaBad/src/main/java/XXEVuln.java8 8( "1*é
+1:! :(7é
+æ
+:! :(E.
+%0(javax.xml.parsers.DocumentBuilderFactory"`javax.xml.parsers.DocumentBuilderFactory#newInstance()Ljavax/xml/parsers/DocumentBuilderFactory;*H
+
+__unknown_file (,"*
+(javax.xml.parsers.DocumentBuilderFactory’
+
+: :(F/
+dbf(javax.xml.parsers.DocumentBuilderFactory"__id*L
+
+__unknown_file (0
+.
+%0(javax.xml.parsers.DocumentBuilderFactoryýú
+; ;(1'
+%1!javax.xml.parsers.DocumentBuilder"`javax.xml.parsers.DocumentBuilderFactory#newDocumentBuilder()Ljavax/xml/parsers/DocumentBuilder;*M
+
+__unknown_file (1
+/
+dbf(javax.xml.parsers.DocumentBuilderFactory2newDocumentBuilder()ƒ
+€
+; ;(2'
+db!javax.xml.parsers.DocumentBuilder"__id*E
+
+__unknown_file ()
+'
+%1!javax.xml.parsers.DocumentBuilder><
+<( <(4
+%2java.io.StringReader"java.io.StringReader¶
+³
+<$ <(9
+%3"0java.io.StringReader#<init>(Ljava/lang/String;)V*8
+
+__unknown_file (
+
+%2java.io.StringReader*5
+
+__unknown_file (
+
+xmljava.lang.StringDB
+< <(#
+%4org.xml.sax.InputSource"org.xml.sax.InputSource½
+º
+< <(:
+%5"1org.xml.sax.InputSource#<init>(Ljava/io/Reader;)V*;
+
+__unknown_file (
+
+%4org.xml.sax.InputSource*8
+
+__unknown_file (
+
+%2java.io.StringReader©¦
+< <(;
+%6org.w3c.dom.Document"Xjavax.xml.parsers.DocumentBuilder#parse(Lorg/xml/sax/InputSource;)Lorg/w3c/dom/Document;*E
+
+__unknown_file ()
+'
+db!javax.xml.parsers.DocumentBuilder*;
+
+__unknown_file (
+
+%4org.xml.sax.InputSource2 parse(Lorg/xml/sax/InputSource;)"(
+< <(<
+
+%6org.w3c.dom.Document:#
+8! 8(+
+xmljava.lang.StringB"
+com.acme.xxe.XXEVulnH

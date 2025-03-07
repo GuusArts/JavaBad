@@ -1,0 +1,57 @@
+
+Tcom.acme.search.SearchController#searchFederal(Ljava/lang/String;)Ljava/lang/String;ñ
+ãC:/Users/artsg/OneDrive/Documenten/documenten fontys/Graduation internship/Bad practices/JavaBad/src/main/java/search/SearchController.java ("startingBlock*¢
+startingBlock (7™
+ß
+  (-
+%3"
+__annotate*T
+
+__unknown_file (86
+4org.springframework.web.bind.annotation.RequestParam*3
+
+__unknown_file (
+
+qjava.lang.StringU
+S
+5 (6
+qjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%3*
+1*ì
+1 (ç
+ä
+ (#
+%0com.acme.search.SearchService"__id*S
+
+__unknown_file (7*5"
+ com.acme.search.SearchController"
+searchServiceìê
+ (-
+%1java.lang.String"Qcom.acme.search.SearchService#searchFederal(Ljava/lang/String;)Ljava/lang/String;*A
+
+__unknown_file (%
+#
+%0com.acme.search.SearchService*3
+
+__unknown_file (
+
+qjava.lang.String2!searchFederal(Ljava/lang/String;)∑
+¥
+ (-
+%2"Horg.springframework.web.servlet.ModelAndView#<init>(Ljava/lang/String;)V*"
+
+__unknown_file (
+""*4
+
+__unknown_file (
+
+%1java.lang.String"$
+ (.
+
+%1java.lang.String:!
+  (6
+qjava.lang.StringB$"
+ com.acme.search.SearchControllerH

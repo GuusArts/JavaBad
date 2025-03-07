@@ -1,0 +1,78 @@
+
+‰com.acme.headerinjection.HeaderInjectionVuln#lookupResource(Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;)Ljava/lang/String;’
+‡C:/Users/artsg/OneDrive/Documenten/documenten fontys/Graduation internship/Bad practices/JavaBad/src/main/java/HeaderInjectionVuln.java ( "startingBlock*Ï
+startingBlock  (_¤
+¡
+ (
+%1"
+__annotate*1
+
+__unknown_file (
+jakarta.ws.rs.GET*P
+
+__unknown_file (4
+2
+response&javax.servlet.http.HttpServletResponser
+p
+5 (=2
+response&javax.servlet.http.HttpServletResponse"__annotation*"
+
+__unknown_file (
+
+%1‡
+„
+ (
+%2"
+__annotate*1
+
+__unknown_file (
+jakarta.ws.rs.GET*3
+
+__unknown_file (
+
+qjava.lang.StringŽ
+‹
+? (O
+%3"
+__annotate*8
+
+__unknown_file (
+jakarta.ws.rs.QueryParam*3
+
+__unknown_file (
+
+qjava.lang.Stringy
+w
+] (^
+qjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%2*"
+
+__unknown_file (
+
+%3*
+1*ý
+1 (ÙÖ
+ (.
+
+%0void"Wjavax.servlet.http.HttpServletResponse#setHeader(Ljava/lang/String;Ljava/lang/String;)V*P
+
+__unknown_file (4
+2
+response&javax.servlet.http.HttpServletResponse*-
+
+__unknown_file (
+X-Last-Search*3
+
+__unknown_file (
+
+qjava.lang.String2/setHeader(Ljava/lang/String;Ljava/lang/String;)"
+ (
+ok:>
+! (>2
+response&javax.servlet.http.HttpServletResponse:!
+? (^
+qjava.lang.StringB0.
+,com.acme.headerinjection.HeaderInjectionVulnH

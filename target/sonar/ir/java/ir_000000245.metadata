@@ -1,0 +1,8 @@
+com.acme.xxe.XXEVuln#main([Ljava/lang/String;)V
+false
+0dc7e1825dfc1ccc94cceaf07b4c54fd
+com.acme.xxe.XXEVuln#docToString(Lorg/w3c/dom/Document;)Ljava/lang/String;
+com.acme.xxe.XXEVuln#saxTransformer(Ljava/lang/String;)V
+com.acme.xxe.XXEVuln#withDom(Ljava/lang/String;)Lorg/w3c/dom/Document;
+com.acme.xxe.XXEVuln#withDomButDisabled(Ljava/lang/String;)Lorg/w3c/dom/Document;
+com.acme.xxe.XXEVuln#withReaderFactory(Ljava/lang/String;)V

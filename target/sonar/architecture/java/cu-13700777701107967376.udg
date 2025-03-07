@@ -1,0 +1,197 @@
+
+1.0bad.code:my-bad-codeJavaFrontend"1741341765827*java2.B·
+ 
+src/main/java/JNDIVuln.java2
+
+package4
+
+com.acme.jndi5
+
+com.acme.jndi.JNDIVuln7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+JNDIVuln12
+
+jakarta.ws.rs.Path14
+
+unknown15
+
+annotated by16
+
+
+uses17
+Q
+Kcom.acme.jndi.JNDIVuln#lookupResource(Ljava/lang/String;)Ljava/lang/String;19
+
+method20
+
+lookupResource21
+
+jakarta.ws.rs.GET23
+
+jakarta.ws.rs.QueryParam25
+X
+Rcom.acme.jndi.JNDIVuln#lookupAnotherResource(Ljava/lang/String;)Ljava/lang/String;27
+
+lookupAnotherResource28
+
+jakarta.ws.rs.POST30
+ 
+com.acme.jndi.FindResource32
+
+
+references33
+S
+Mcom.acme.jndi.FindResource#findResource(Ljava/lang/String;)Ljava/lang/String;35
+
+calls36
+[
+Ucom.acme.jndi.JNDIVuln#lookupYetAnotherResource(Ljava/lang/String;)Ljava/lang/String;38
+
+lookupYetAnotherResource39
+
+jakarta.ws.rs.PUT41J
+
+1
+12Z
+
+3	
+354jç
+9
+64
+678 *
+1 (:3B
+	
+9
+10
+
+
+11
+12
+@
+18:
+181920 *
+1 (26:3B
+	
+9
+10
+
+
+11
+21
+
+31
+313215
+@
+37:
+373820 *
+1 (26:3B
+	
+9
+10
+
+
+11
+39
+
+29
+293015
+@
+26:
+262720 *
+1 (26:3B
+	
+9
+10
+
+
+11
+28
+
+34
+343515
+
+24
+242515
+
+22
+222315
+
+40
+404115
+
+13
+131415rö
+
+61316*
+1
+ 
+(
+
+61317*
+1
+ 
+(
+
+182216*
+1 (
+
+182217*
+1 (	
+
+182416*
+1" (#
+
+182417*
+1# (-
+
+262916*
+1 (
+
+262917*
+1 (
+
+
+262416*
+1) (*
+
+262417*
+1* (4
+
+263133*
+1 (
+
+263436*
+1 ()
+
+263117*
+1 (
+
+374016*
+1 (
+
+374017*
+1 (	
+
+372416*
+1, (-
+
+372417*
+1- (7
+
+373133*
+1 (
+
+373436*
+1 ()
+
+373117*
+1 (

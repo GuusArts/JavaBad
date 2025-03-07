@@ -1,0 +1,48 @@
+
+±com.acme.csrf.SecurityConfiguration#filterChain(Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;)Lorg/springframework/security/web/SecurityFilterChain;™
+ŽC:/Users/artsg/OneDrive/Documenten/documenten fontys/Graduation internship/Bad practices/JavaBad/src/main/java/csrf/SecurityConfiguration.java (*"startingBlock*‘
+startingBlock* (=Ü
+Ù
+ (	
+%3"
+__annotate*K
+
+__unknown_file (/-
++org.springframework.context.annotation.Bean*n
+
+__unknown_file (R
+P
+httpHorg.springframework.security.config.annotation.web.builders.HttpSecurity‘
+Ž
+8 (<P
+httpHorg.springframework.security.config.annotation.web.builders.HttpSecurity"__annotation*"
+
+__unknown_file (
+
+%3*
+1*’	
+1 (ûø
+ (S
+%0Morg.springframework.security.config.annotation.web.configurers.CsrfConfigurer"žorg.springframework.security.config.annotation.web.builders.HttpSecurity#csrf()Lorg/springframework/security/config/annotation/web/configurers/CsrfConfigurer;*n
+
+__unknown_file (R
+P
+httpHorg.springframework.security.config.annotation.web.builders.HttpSecurity2csrf()…‚
+ (N
+%1Horg.springframework.security.config.annotation.web.builders.HttpSecurity"§org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer#disable()Lorg/springframework/security/config/annotation/web/HttpSecurityBuilder;*q
+
+__unknown_file (U
+S
+%0Morg.springframework.security.config.annotation.web.configurers.CsrfConfigurer2	disable()«¨
+ (A
+%2;org.springframework.security.web.DefaultSecurityFilterChain"`org.springframework.security.config.annotation.AbstractSecurityBuilder#build()Ljava/lang/Object;*n
+
+__unknown_file (R
+P
+httpHorg.springframework.security.config.annotation.web.builders.HttpSecurity2build()"O
+ (C
+A
+%2;org.springframework.security.web.DefaultSecurityFilterChain:\
++ (<P
+httpHorg.springframework.security.config.annotation.web.builders.HttpSecurityB'%
+#com.acme.csrf.SecurityConfigurationH

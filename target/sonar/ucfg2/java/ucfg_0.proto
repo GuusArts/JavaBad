@@ -1,0 +1,88 @@
+
+Kcom.acme.jndi.JNDIVuln#lookupResource(Ljava/lang/String;)Ljava/lang/String;†
+|C:/Users/artsg/OneDrive/Documenten/documenten fontys/Graduation internship/Bad practices/JavaBad/src/main/java/JNDIVuln.java ( "startingBlock*Ê
+startingBlock  (OŽ
+‹
+ (
+%4"
+__annotate*1
+
+__unknown_file (
+jakarta.ws.rs.GET*:
+
+__unknown_file (
+
+resourcejava.lang.String•
+’
+! (8
+%5"
+__annotate*8
+
+__unknown_file (
+jakarta.ws.rs.QueryParam*:
+
+__unknown_file (
+
+resourcejava.lang.String€
+~
+F (N
+resourcejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%4*"
+
+__unknown_file (
+
+%5*
+1*¡
+1 (*LJ
+ ((!
+%0javax.naming.InitialContext"javax.naming.InitialContextz
+x
+ (*
+%1"%javax.naming.InitialContext#<init>()V*?
+
+__unknown_file (#
+!
+%0javax.naming.InitialContextp
+n
+ (+
+ctxjavax.naming.Context"__id*?
+
+__unknown_file (#
+!
+%0javax.naming.InitialContextûø
+ ()
+%2java.lang.Object"Ajavax.naming.Context#lookup(Ljava/lang/String;)Ljava/lang/Object;*9
+
+__unknown_file (
+
+ctxjavax.naming.Context*:
+
+__unknown_file (
+
+resourcejava.lang.String2lookup(Ljava/lang/String;)a
+_
+ (*
+objjava.lang.Object"__id*4
+
+__unknown_file (
+
+%2java.lang.ObjectÎ
+Ë
+ ("
+%3java.lang.String">java.lang.String#valueOf(Ljava/lang/Object;)Ljava/lang/String;*0
+
+__unknown_file ("
+java.lang.String*5
+
+__unknown_file (
+
+objjava.lang.Object"$
+ (#
+
+%3java.lang.String:(
+! (N
+resourcejava.lang.StringB
+com.acme.jndi.JNDIVulnH

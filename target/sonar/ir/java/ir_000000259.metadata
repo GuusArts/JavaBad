@@ -1,0 +1,4 @@
+com.acme.search.SearchController#searchFederal(Ljava/lang/String;)Ljava/lang/String;
+false
+8865f640a58b02ab30e4a292ba10378f
+com.acme.search.SearchService#searchFederal(Ljava/lang/String;)Ljava/lang/String;

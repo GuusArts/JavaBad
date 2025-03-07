@@ -1,0 +1,173 @@
+
+1.0bad.code:my-bad-codeJavaFrontend"1741341766623*java2.B¦
+,
+'src/main/java/search/SearchService.java2
+
+package4
+
+com.acme.search5
+"
+com.acme.search.SearchService7
+
+
+class8
+
+access9
+
+	protected10
+
+simple name11
+
+SearchService12
+,
+&org.springframework.stereotype.Service14
+
+unknown15
+
+annotated by16
+
+
+uses17
+1
++com.acme.search.SearchService.fedConnection19
+
+field20
+
+private21
+
+fedConnection22
+'
+!com.acme.search.FederalConnection24
+
+is type25
+<
+6org.springframework.beans.factory.annotation.Autowired27
+W
+Qcom.acme.search.SearchService#searchFederal(Ljava/lang/String;)Ljava/lang/String;29
+
+method30
+
+searchFederal31
+'
+!com.acme.search.SearchService.log33
+
+
+references34
+V
+Pcom.acme.search.FederalConnection#doSearch(Ljava/lang/String;)Ljava/lang/String;36
+
+calls37
+	
+log38J
+
+1
+12Z
+
+3	
+354jÑ
+@
+28:
+282930 *
+1 (26:3B
+	
+9
+10
+
+
+11
+31
+@
+18:
+181920 *
+1 (26:3B
+	
+9
+21
+
+
+11
+22
+
+13
+131415
+
+23
+232415
+
+26
+262715
+
+35
+353615
+9
+64
+678 *
+1
+ 
+(:3B
+	
+9
+10
+
+
+11
+12
+@
+32:
+323320 *
+1 (26:3B
+	
+9
+21
+
+
+11
+38r®
+
+61316*
+1	 	(
+
+61317*
+1	 	(	
+
+182325*
+1 (
+
+182616*
+1 (
+
+182617*
+1 (
+
+182317*
+1 (
+
+182317*
+1 (,
+
+283234*
+1	 (
+
+283234*
+1	 (
+
+282334*
+1 (!
+
+283537*
+1" (*
+
+281834*
+1 (!
+
+282317*
+1 (!
+
+281834*
+1 (!
+
+283234*
+1 (
+
+283234*
+1 (

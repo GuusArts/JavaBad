@@ -1,0 +1,16 @@
+com.acme.search.FederalConnection#doSearch(Ljava/lang/String;)Ljava/lang/String;
+false
+88ceeeb0b0e62d10a0130f3ba0a23171
+java.lang.String#join(Ljava/lang/CharSequence;Ljava/lang/Iterable;)Ljava/lang/String;
+java.util.ArrayList#<init>()V
+java.util.ArrayList#instance-init#
+==
+add java.util.List#add(Ljava/lang/Object;)Z
+close java.sql.Connection#close()V
+close java.sql.ResultSet#close()V
+close java.sql.Statement#close()V
+createStatement java.sql.Connection#createStatement()Ljava/sql/Statement;
+executeQuery java.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;
+getConnection com.acme.search.FederalConnectionLoader#getConnection()Ljava/sql/Connection;
+getString java.sql.ResultSet#getString(Ljava/lang/String;)Ljava/lang/String;
+next java.sql.ResultSet#next()Z

@@ -1,0 +1,116 @@
+
+Jcom.acme.xxe.XXEVuln#docToString(Lorg/w3c/dom/Document;)Ljava/lang/String;Ö
+{C:/Users/artsg/OneDrive/Documenten/documenten fontys/Graduation internship/Bad practices/JavaBad/src/main/java/XXEVuln.java$ $(""1*…
+1%, %(>·
+ﬁ
+%, %(L,
+%0&javax.xml.transform.TransformerFactory"\javax.xml.transform.TransformerFactory#newInstance()Ljavax/xml/transform/TransformerFactory;*F
+
+__unknown_file (*"(
+&javax.xml.transform.TransformerFactoryù
+ö
+% %(M<
+transformerFactory&javax.xml.transform.TransformerFactory"__id*J
+
+__unknown_file (.
+,
+%0&javax.xml.transform.TransformerFactory¸˘
+& &(A%
+%1javax.xml.transform.Transformer"Xjavax.xml.transform.TransformerFactory#newTransformer()Ljavax/xml/transform/Transformer;*Z
+
+__unknown_file (>
+<
+transformerFactory&javax.xml.transform.TransformerFactory2newTransformer()à
+Ö
+& &(B.
+transformerjavax.xml.transform.Transformer"__id*C
+
+__unknown_file ('
+%
+%1javax.xml.transform.TransformerXV
+' '($'
+%2!javax.xml.transform.dom.DOMSource"!javax.xml.transform.dom.DOMSource€
+ÿ
+' '(0
+%3"=javax.xml.transform.dom.DOMSource#<init>(Lorg/w3c/dom/Node;)V*E
+
+__unknown_file ()
+'
+%2!javax.xml.transform.dom.DOMSource*@
+
+__unknown_file ($
+"
+
+poDocumentorg.w3c.dom.Documentá
+Ñ
+' '(1+
+domSrc!javax.xml.transform.dom.DOMSource"__id*E
+
+__unknown_file ()
+'
+%2!javax.xml.transform.dom.DOMSource><
+( ((&
+%4java.io.StringWriter"java.io.StringWriterl
+j
+( (((
+%5"java.io.StringWriter#<init>()V*8
+
+__unknown_file (
+
+%4java.io.StringWriterh
+f
+( (()
+swjava.io.StringWriter"__id*8
+
+__unknown_file (
+
+%4java.io.StringWriterdb
+) )(*-
+%6'javax.xml.transform.stream.StreamResult"'javax.xml.transform.stream.StreamResult›
+⁄
+) )(.
+%7"Ajavax.xml.transform.stream.StreamResult#<init>(Ljava/io/Writer;)V*K
+
+__unknown_file (/
+-
+%6'javax.xml.transform.stream.StreamResult*8
+
+__unknown_file (
+
+swjava.io.StringWriterì
+ê
+) )(/1
+result'javax.xml.transform.stream.StreamResult"__id*K
+
+__unknown_file (/
+-
+%6'javax.xml.transform.stream.StreamResultÆ´
+* *()
+
+%8void"djavax.xml.transform.Transformer#transform(Ljavax/xml/transform/Source;Ljavax/xml/transform/Result;)V*L
+
+__unknown_file (0
+.
+transformerjavax.xml.transform.Transformer*I
+
+__unknown_file (-
++
+domSrc!javax.xml.transform.dom.DOMSource*O
+
+__unknown_file (3
+1
+result'javax.xml.transform.stream.StreamResult2Ctransform(Ljavax/xml/transform/Source;Ljavax/xml/transform/Result;)ûõ
++ +(
+%9java.lang.String"1java.io.StringWriter#toString()Ljava/lang/String;*8
+
+__unknown_file (
+
+swjava.io.StringWriter2
+toString()"$
++ +(
+
+%9java.lang.String:.
+$# $(<"
+
+poDocumentorg.w3c.dom.DocumentB"
+com.acme.xxe.XXEVulnH

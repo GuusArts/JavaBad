@@ -1,0 +1,14 @@
+com.acme.xxe.XXEVuln#docToString(Lorg/w3c/dom/Document;)Ljava/lang/String;
+false
+39840f05b7b2551f01453cab17c6a309
+java.io.StringWriter#<init>()V
+java.io.StringWriter#instance-init#
+javax.xml.transform.TransformerFactory#newInstance()Ljavax/xml/transform/TransformerFactory;
+javax.xml.transform.dom.DOMSource#<init>(Lorg/w3c/dom/Node;)V
+javax.xml.transform.dom.DOMSource#instance-init#
+javax.xml.transform.stream.StreamResult#<init>(Ljava/io/Writer;)V
+javax.xml.transform.stream.StreamResult#instance-init#
+==
+newTransformer javax.xml.transform.TransformerFactory#newTransformer()Ljavax/xml/transform/Transformer;
+toString java.io.StringWriter#toString()Ljava/lang/String;
+transform javax.xml.transform.Transformer#transform(Ljavax/xml/transform/Source;Ljavax/xml/transform/Result;)V

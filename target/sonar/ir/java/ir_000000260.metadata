@@ -1,0 +1,8 @@
+com.acme.search.SearchController#createFedSearchToken(Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;)V
+false
+00833fe175acdece61ecfd316f924c6c
+java.lang.String#toUpperCase()Ljava/lang/String;
+java.lang.String#trim()Ljava/lang/String;
+==
+getWriter javax.servlet.ServletResponse#getWriter()Ljava/io/PrintWriter;
+write java.io.PrintWriter#write(Ljava/lang/String;)V

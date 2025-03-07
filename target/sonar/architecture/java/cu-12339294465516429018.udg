@@ -1,0 +1,54 @@
+
+1.0bad.code:my-bad-codeJavaFrontend"1741341766798*java2.BÞ
+6
+1src/main/java/search/FederalConnectionLoader.java2
+
+package4
+
+com.acme.search5
+,
+'com.acme.search.FederalConnectionLoader7
+
+	interface8
+
+access9
+
+public10
+
+simple name11
+
+FederalConnectionLoader12
+R
+Lcom.acme.search.FederalConnectionLoader#getConnection()Ljava/sql/Connection;14
+
+method15
+
+getConnection16J
+
+1
+12Z
+
+3	
+354j}
+@
+13:
+131415 *
+1 (26:3B
+	
+9
+10
+
+
+11
+16
+9
+64
+678 *
+1 ():3B
+	
+9
+10
+
+
+11
+12

@@ -1,0 +1,4 @@
+com.acme.jndi.JNDIVuln#lookupAnotherResource(Ljava/lang/String;)Ljava/lang/String;
+false
+2786ad0f5923a5cb40472185431fd820
+com.acme.jndi.FindResource#findResource(Ljava/lang/String;)Ljava/lang/String;

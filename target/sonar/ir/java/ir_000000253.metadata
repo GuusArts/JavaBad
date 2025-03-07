@@ -1,0 +1,8 @@
+com.acme.csrf.ContactController#logout()V
+false
+48a5de01a7c0eaa7499b781914e90022
+java.util.Optional#get()Ljava/lang/Object;
+java.util.Optional#isPresent()Z
+==
+currentSession com.acme.csrf.ContactController#currentSession()Ljava/util/Optional;
+logout com.acme.csrf.ContactController$Session#logout()V

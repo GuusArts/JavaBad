@@ -1,0 +1,8 @@
+com.acme.jndi.FindResource#lookupResource(Ljava/lang/String;)Ljava/lang/String;
+false
+493546fa44197115866d92872d2d6f27
+java.lang.String#valueOf(Ljava/lang/Object;)Ljava/lang/String;
+javax.naming.InitialContext#<init>()V
+javax.naming.InitialContext#instance-init#
+==
+lookup javax.naming.Context#lookup(Ljava/lang/String;)Ljava/lang/Object;

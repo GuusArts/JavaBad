@@ -1,0 +1,11 @@
+com.acme.xxe.XXEVuln#withDom(Ljava/lang/String;)Lorg/w3c/dom/Document;
+false
+d92dfb5d0fcc13db964cf91c23887182
+java.io.StringReader#<init>(Ljava/lang/String;)V
+java.io.StringReader#instance-init#
+javax.xml.parsers.DocumentBuilderFactory#newInstance()Ljavax/xml/parsers/DocumentBuilderFactory;
+org.xml.sax.InputSource#<init>(Ljava/io/Reader;)V
+org.xml.sax.InputSource#instance-init#
+==
+newDocumentBuilder javax.xml.parsers.DocumentBuilderFactory#newDocumentBuilder()Ljavax/xml/parsers/DocumentBuilder;
+parse javax.xml.parsers.DocumentBuilder#parse(Lorg/xml/sax/InputSource;)Lorg/w3c/dom/Document;

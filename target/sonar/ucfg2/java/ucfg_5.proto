@@ -1,0 +1,73 @@
+
+Pcom.acme.reflection.UnsafeReflection#hello(Ljava/lang/String;)Ljava/lang/String;è
+ÑC:/Users/artsg/OneDrive/Documenten/documenten fontys/Graduation internship/Bad practices/JavaBad/src/main/java/UnsafeReflection.java ("startingBlock*Ï
+startingBlock (Qô
+ñ
+ (
+%2"
+__annotate*1
+
+__unknown_file (
+jakarta.ws.rs.GET*E
+
+__unknown_file ()
+'
+translationStrategyjava.lang.String†
+ù
+ (/
+%3"
+__annotate*8
+
+__unknown_file (
+jakarta.ws.rs.QueryParam*E
+
+__unknown_file ()
+'
+translationStrategyjava.lang.Stringå
+â
+= (P'
+translationStrategyjava.lang.String"__annotation*"
+
+__unknown_file (
+
+%2*"
+
+__unknown_file (
+
+%3*
+1*Ø
+1 (/ø
+º
+ (D,
+%0&com.acme.reflection.TranslatorStrategy"ucom.acme.reflection.UnsafeReflection#loadTranslatorByName(Ljava/lang/String;)Lcom/acme/reflection/TranslatorStrategy;*D
+
+__unknown_file (("&
+$com.acme.reflection.UnsafeReflection*E
+
+__unknown_file ()
+'
+translationStrategyjava.lang.Stringï
+í
+ (E4
+
+translator&com.acme.reflection.TranslatorStrategy"__id*J
+
+__unknown_file (.
+,
+%0&com.acme.reflection.TranslatorStrategyüú
+ (0
+%1java.lang.String"Vcom.acme.reflection.TranslatorStrategy#translate(Ljava/lang/String;)Ljava/lang/String;*R
+
+__unknown_file (6
+4
+
+translator&com.acme.reflection.TranslatorStrategy*-
+
+__unknown_file (
+Hello, world!2translate(Ljava/lang/String;)"$
+ (1
+
+%1java.lang.String:3
+ (P'
+translationStrategyjava.lang.StringB(&
+$com.acme.reflection.UnsafeReflectionH

@@ -1,0 +1,107 @@
+
+gcom.acme.sql.SQLInjectionVuln#lookupResource(Ljava/sql/Connection;Ljava/lang/String;)Ljava/lang/String;è
+ÑC:/Users/artsg/OneDrive/Documenten/documenten fontys/Graduation internship/Bad practices/JavaBad/src/main/java/SQLInjectionVuln.java ( "startingBlock*√
+startingBlock  (fì
+ê
+ (
+%4"
+__annotate*1
+
+__unknown_file (
+jakarta.ws.rs.GET*?
+
+__unknown_file (#
+!
+
+connectionjava.sql.Connectiona
+_
+, (6!
+
+connectionjava.sql.Connection"__annotation*"
+
+__unknown_file (
+
+%4é
+ã
+ (
+%5"
+__annotate*1
+
+__unknown_file (
+jakarta.ws.rs.GET*:
+
+__unknown_file (
+
+resourcejava.lang.Stringï
+í
+8 (O
+%6"
+__annotate*8
+
+__unknown_file (
+jakarta.ws.rs.QueryParam*:
+
+__unknown_file (
+
+resourcejava.lang.StringÄ
+~
+] (e
+resourcejava.lang.String"__annotation*"
+
+__unknown_file (
+
+%5*"
+
+__unknown_file (
+
+%6*
+1*Ã
+1 ((∂≥
+ (:
+%0java.sql.Statement"9java.sql.Connection#createStatement()Ljava/sql/Statement;*?
+
+__unknown_file (#
+!
+
+connectionjava.sql.Connection2createStatement()k
+i
+ (;
+	statementjava.sql.Statement"__id*6
+
+__unknown_file (
+
+%0java.sql.Statementè
+å
+ (N
+%1java.lang.String"__concat*2
+ (C&$
+"select * from users where name = '**
+F (N
+
+resourcejava.lang.Stringg
+e
+ (T
+%2java.lang.String"__concat*$
+ (N
+
+%1java.lang.String*
+Q (T
+'áÑ
+ (U
+%3java.sql.ResultSet"Gjava.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;*=
+
+__unknown_file (!
+
+	statementjava.sql.Statement*4
+
+__unknown_file (
+
+%2java.lang.String2 executeQuery(Ljava/lang/String;)"
+ (
+ok:-
+! (7!
+
+connectionjava.sql.Connection:(
+8 (e
+resourcejava.lang.StringB!
+com.acme.sql.SQLInjectionVulnH

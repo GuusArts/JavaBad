@@ -1,0 +1,7 @@
+com.acme.csrf.SecurityConfiguration#filterChain(Lorg/springframework/security/config/annotation/web/builders/HttpSecurity;)Lorg/springframework/security/web/SecurityFilterChain;
+false
+d91406f1c9faa1ec53ba4dba40834ed4
+org.springframework.security.config.annotation.AbstractSecurityBuilder#build()Ljava/lang/Object;
+org.springframework.security.config.annotation.web.builders.HttpSecurity#csrf()Lorg/springframework/security/config/annotation/web/configurers/CsrfConfigurer;
+==
+disable org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer#disable()Lorg/springframework/security/config/annotation/web/HttpSecurityBuilder;

@@ -1,0 +1,182 @@
+
+1.0bad.code:my-bad-codeJavaFrontend"1741341768222*java2.BÌ
+/
+*src/main/java/search/SearchController.java2
+
+package4
+
+com.acme.search5
+%
+ com.acme.search.SearchController7
+
+
+class8
+
+access9
+
+public10
+
+simple name11
+
+SearchController12
+/
+)org.springframework.stereotype.Controller14
+
+unknown15
+
+annotated by16
+
+
+uses17
+4
+.com.acme.search.SearchController.searchService19
+
+field20
+
+private21
+
+searchService22
+#
+com.acme.search.SearchService24
+
+is type25
+Z
+Tcom.acme.search.SearchController#searchFederal(Ljava/lang/String;)Ljava/lang/String;27
+
+method28
+
+searchFederal29
+8
+2org.springframework.web.bind.annotation.GetMapping31
+:
+4org.springframework.web.bind.annotation.RequestParam33
+
+
+references34
+W
+Qcom.acme.search.SearchService#searchFederal(Ljava/lang/String;)Ljava/lang/String;36
+
+calls37
+x
+rcom.acme.search.SearchController#createFedSearchToken(Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;)V39
+
+createFedSearchToken40J
+
+1
+12Z
+
+3	
+354jå
+
+32
+323315
+
+35
+353615
+@
+26:
+262728 *
+1 (26:3B
+	
+9
+10
+
+
+11
+29
+@
+38:
+383928 *
+1 (26:3B
+	
+9
+10
+
+
+11
+40
+9
+64
+678 *
+1 ($:3B
+	
+9
+10
+
+
+11
+12
+@
+18:
+181920 *
+1 (26:3B
+	
+9
+21
+
+
+11
+22
+
+30
+303115
+
+13
+131415
+
+23
+232415rä
+
+61316*
+1 (
+
+61317*
+1 (
+
+182325*
+1 (
+
+182317*
+1 (
+
+182317*
+1 ((
+
+263016*
+1 (
+
+263017*
+1 (
+
+263216*
+1! ("
+
+263217*
+1" (.
+
+262334*
+1 (
+
+263537*
+1 (+
+
+261834*
+1 (
+
+262317*
+1 (
+
+261834*
+1 (
+
+383016*
+1 (
+
+383017*
+1 (
+
+383216*
+1D (E
+
+383217*
+1E (Q

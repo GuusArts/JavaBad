@@ -1,0 +1,10 @@
+com.acme.xxe.XXEVuln#withReaderFactory(Ljava/lang/String;)V
+false
+22e27dd2cec51288f12ad3cd49cfdcc8
+java.io.StringReader#<init>(Ljava/lang/String;)V
+java.io.StringReader#instance-init#
+org.xml.sax.InputSource#<init>(Ljava/io/Reader;)V
+org.xml.sax.InputSource#instance-init#
+org.xml.sax.helpers.XMLReaderFactory#createXMLReader()Lorg/xml/sax/XMLReader;
+==
+parse org.xml.sax.XMLReader#parse(Lorg/xml/sax/InputSource;)V

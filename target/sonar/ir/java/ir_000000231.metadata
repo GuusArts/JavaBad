@@ -1,0 +1,6 @@
+com.acme.sql.SQLInjectionVuln#lookupResource(Ljava/sql/Connection;Ljava/lang/String;)Ljava/lang/String;
+false
+af045d3c702cd5db490c61cf30f93409
+==
+createStatement java.sql.Connection#createStatement()Ljava/sql/Statement;
+executeQuery java.sql.Statement#executeQuery(Ljava/lang/String;)Ljava/sql/ResultSet;

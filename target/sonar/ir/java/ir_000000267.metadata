@@ -1,0 +1,5 @@
+com.acme.headerinjection.HeaderInjectionVuln#lookupResource(Ljavax/servlet/http/HttpServletResponse;Ljava/lang/String;)Ljava/lang/String;
+false
+44e1216dd4de5324d58aafb47b5cdeea
+==
+setHeader javax.servlet.http.HttpServletResponse#setHeader(Ljava/lang/String;Ljava/lang/String;)V

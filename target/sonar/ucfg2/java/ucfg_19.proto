@@ -1,0 +1,20 @@
+
+Mcom.acme.jndi.FindResource#findResource(Ljava/lang/String;)Ljava/lang/String;‹
+€C:/Users/artsg/OneDrive/Documenten/documenten fontys/Graduation internship/Bad practices/JavaBad/src/main/java/FindResource.java (%"1*¤
+1 (î
+ë
+ ('
+%0java.lang.String"Ocom.acme.jndi.FindResource#lookupResource(Ljava/lang/String;)Ljava/lang/String;*:
+
+__unknown_file ("
+com.acme.jndi.FindResource*:
+
+__unknown_file (
+
+resourcejava.lang.String"$
+ ((
+
+%0java.lang.String:(
+& (;
+resourcejava.lang.StringB"
+com.acme.jndi.FindResourceH
