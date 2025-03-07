@@ -12,7 +12,7 @@ import java.lang.reflect.InvocationTargetException;
  * the end-user.
  */
 @Path("/unsafe-reflection")
-public class UnsafeReflection {
+public class Reflection {
 
   @GET
   public String hello(@QueryParam("translator") final String translationStrategy) {
